@@ -1,0 +1,16 @@
+body{
+	margin:0;
+}
+
+.midi ul li:hover{
+	
+	margin:0;
+	letter-spacing:2px;
+}
+.midi ul li  a:hover{
+	color:brown;
+}
+
+.item2 ul li a:hover{
+	color:brown;
+}

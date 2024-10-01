@@ -1,0 +1,180 @@
+*{margin:0;
+}
+.item1{	grid-area: header;
+background-color:pink;
+height:60px;
+}
+ .item1 h1{
+	 position:relative;
+	 top:8px;
+ }
+	
+
+.midi{
+	grid-area:midi;
+	background-color:white;
+	padding: 1px;
+}
+.midi ul{
+	list-style-type:none;
+	margin: 0px;
+	
+}
+.midi ul li{
+	display:inline-block;
+	padding: 30px;
+	position:relative;
+	left:270px;
+	font-family:'brush script mt';
+font-family:cursive;
+}
+.midi ul li a{
+	text-decoration:none;
+	 color:black;	
+}
+
+.midi ul li:hover{
+	background-color:black;
+   color:white;
+}
+.midi ul li a:hover{
+	color:white;
+}
+.midi img{
+	height:50px;
+	width:50px;
+	border-radius:70%;
+	float:left;
+	position:absolute;
+	left:60px;
+	top:70px;
+	
+}
+.item2{
+	grid-area:menu;
+	background-color:black;
+	height:100%;
+	}
+.item2 ul{
+	margin-top:20%;
+	font-family:cursive;
+	
+}
+.item2 ul li{
+		padding:20px 80px;
+		position:relative;
+		right:70px;
+}
+.item2 ul li a{
+	color:white;
+	text-decoration:none;
+	position:absolute;
+	font-size:16px;
+	
+}
+.item2 ul li a:hover{
+	color:sandybrown;
+	
+}
+/*.item3{grid-area:main;
+       background-color:brown;
+	   margin:0px 0px;
+	   
+}*/
+.
+a{
+	font-size:20px;
+	
+}
+.item4{
+	grid-area:right;
+	display:inline-block;
+    background-color:pink;
+}
+.item4 p{
+	background-color:black;
+	height:60px;
+	width:auto;
+	color:white;
+	font-weight:bold;
+	padding-top:40px;
+	font-family:'brush script mt',cursive;
+	font-size:40px;
+	
+}
+.item4 img{
+	border:2px solid white;
+	height:400px;
+	width:300px;
+	border:none;
+	padding:20px;
+	border-radius:60px;
+	margin-left:0px;
+	margin-bottom:0px;
+	display:inline-block;
+	
+}
+.item4 ul li{
+	background-color:pink;
+	margin-top:20px;
+	border-radius:20px;
+	max-width:100%;
+	
+}
+
+.item5{
+	grid-area:footer;
+	background-color:black;
+	margin-bottom:-3%;
+    }
+
+.item5 p{
+	display:inline-block;
+	position:relative;
+	right:90px;
+	padding-left:50px;
+	font-size:16px;
+}
+.item5{
+	 grid-area:footer;
+     background-color:brown;
+	
+	 }
+  .item5 .link1 ul{
+	  list-style-type:none;
+  }
+  .item5 .link1 ul li{
+	  padding:10px;
+	  display:inline-block;
+  }
+  
+ .item5 .link1 ul li a{
+	 text-decoration:none;
+	 color:white;
+ }
+  .item5 .link2 ul li a{
+	  text-decoration:none;
+	  color:white;
+	  font-family:cursive;
+  }
+  .item5 .link2 ul li{
+	  padding:10px;
+	  display:inline-block;
+  }
+.grid-container{
+	display:grid;
+	grid-template-areas:'header header header header header header''midi midi midi midi midi midi'
+	'menu menu right right right right''menu menu footer footer footer footer';
+	font-family:'brush script mt'
+	font-family:cursive;
+	
+}
+
+
+.grid-container > div  {
+	/*background-color:sandybrown;*/
+	text-align:center;
+	padding:0px 0;
+	font-size:14px;
+	color:white;
+}
